@@ -1,0 +1,189 @@
+
+    f{
+    text-decoration:double; font-weight: 700; font-family:'Times New Roman', Times, serif; color: rgb(42, 61, 55); opacity: .85;
+    }
+
+
+    p {outline-color:rgb(126, 126, 144);}
+  body {
+      background-image: url('Background2.jpg');
+    }
+
+    <style type ="text/css">
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+opacity: .8;
+background-color: #080715;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none; color:rgb(113, 238, 91);
+}
+
+li a:hover {
+background-color: #8083b5;
+}
+</head>
+<body>
+
+<ul>
+<li><a class="active" href="#home">Home</a></li> 
+<li><a href="https://jacobssozi.github.io/contact.html/">Contact</a></li>
+<li><a href="https://jacobssozi.github.io/about.html/">About and Pricing</a></li>
+</ul>
+
+
+<h1><f> Locals' Art Gallery </f></h1>
+
+x{text-align: right;}
+
+
+.example {
+position: relative;
+padding: 0;
+width: 300px;
+display: block;
+cursor: pointer;
+overflow: hidden;
+}
+.content {
+opacity: 0;
+font-size: 12px;
+position: absolute;
+top: 0;
+left: 0;
+color: #1c87c9;
+background-color: rgba(200, 200, 200, 0.5);
+width: 300px;
+height: 300px;
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+transition: all 400ms ease-out;
+text-align: center;
+}
+.example .content:hover {
+opacity: 1;
+}
+.example .content .text {
+height: 0;
+opacity: 1;
+transition-delay: 0s;
+transition-duration: 0.4s;
+}
+.example .content:hover .text {
+opacity: 1;
+transform: translateY(250px);
+-webkit-transform: translateY(250px);
+}
+
+<style type="text/css">
+ div {
+width: 300px;
+/* padding: 5px;
+margin: 20px; */
+opacity: .75;
+text-decoration: none; color:rgb(38, 33, 35);
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div:hover{
+width: 1000px;
+/* padding: 5px;
+margin: 20px; */
+opacity: 1;
+text-decoration: none; color:rgb(24, 18, 21);
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+
+    table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+opacity: .8;
+background-color: #080715;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none; color:rgb(113, 238, 91);
+}
+
+    table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+opacity: .8;
+background-color: #080715;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none; color:rgb(113, 238, 91);
+}
