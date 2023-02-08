@@ -4,6 +4,7 @@
 </h1>
 <head>
     <style>
+        p {outline-color:rgb(126, 126, 144);}
       body {
           background-image: url('Background2.jpg');
         }
@@ -27,12 +28,142 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; color:rgb(234, 108, 6);
+  text-decoration: none; color:rgb(113, 238, 91);
 }
 
 li a:hover {
-  background-color: #373fd7;
+  background-color: #8083b5;
 }
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li> 
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+<h1> Locals' Art Gallery </h1>
+<style>
+    x{text-align: right;}
+</style>
+<style>
+.example {
+    position: relative;
+    padding: 0;
+    width: 300px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .content {
+    opacity: 0;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1c87c9;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .example .content:hover {
+    opacity: 1;
+  }
+  .example .content .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+  .example .content:hover .text {
+    opacity: 1;
+    transform: translateY(250px);
+    -webkit-transform: translateY(250px);
+  }
+</style>
+<style type="text/css">
+     div {
+  width: 300px;
+  /* padding: 5px;
+  margin: 20px; */
+  opacity: .75;
+  text-decoration: none; color:rgb(38, 33, 35);
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div:hover{
+    width: 1000px;
+  /* padding: 5px;
+  margin: 20px; */
+  opacity: 1;
+  text-decoration: none; color:rgb(24, 18, 21);
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+</style>
+
+
+<div class="example">
+    <img src="ArtPiece1.jpg" width="300" height="300"/>
+    <div class="content">
+      <div class="text">Album Cover</div>
+      <x>
+        Album Covers and can come with other small customizable features. Note that Covers tend to be 36x36in and can expand per request.
+      </br>
+       Covers range from $70-$100.
+      </x>
+    </div>
+  </div>
+  <div class="example">
+    <img src="ArtPiece2.jpg" width="300" height="300"/>
+    <div class="content">
+      <div class="text">Personalized Canvas Pieces</div>
+      <x>
+        Canvas Pieces are more personalized art sets that are more invested and creative with more flexibility per request. 36x36in
+      </br>
+        Canvas Pieces range from $120-$200.
+      </x>
+    </div>
+  </div>
+  <div class="example">
+    <img src="ArtPiece3.jpg" width="300" height="300"/>
+    <div class="content">
+      <div class="text">Art Replicas</div>
+      <x>
+        Art Replicas are larger sets that can be inspired from photo or painted piece. 144x72in
+      </br>
+      Art Replicas range from $200-$250.
+      </x>
+    </div>
+  </div>
+  <div class="example">
+    <img src="ArtPiece4.jpg" width="300" height="300"/>
+    <div class="content">
+      <div class="text">Special Material Pieces</div>
+      <x>
+        Special Material sets can be arranged for types of sets alike above for a given size.
+      </br>
+      Special Material Pieces range from $50-$125+.
+      </x>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
 </style>
 </head>
 <body>
